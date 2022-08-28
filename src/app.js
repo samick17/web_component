@@ -1,6 +1,6 @@
 import { html, css, LitElement } from 'lit';
 
-export class SComponent extends LitElement {
+export class CustomComponent extends LitElement {
   static get styles() {
     return css`
       :host {

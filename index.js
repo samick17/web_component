@@ -1,1 +1,3 @@
-export { SComponent2 } from './src/SComponent2.js';
+import { CustomComponent } from './src/app.js';
+
+window.customElements.define('s-component', CustomComponent);
